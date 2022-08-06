@@ -10,16 +10,21 @@
         <link rel="stylesheet" href="./main.css"></ref>
         <link rel="stylesheet" href="./font-awesome.min.css"></ref>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <script>
+            $(".nav-link a").click(function () {
+              $(".navbar-collapse").collapse("hide");
+            });
+        </script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-custom ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">RISHABH SHARMA</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
+                </button>
             </div>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                       <a class="nav-link" aria-current="page" href="#about-me">About</a>
@@ -32,9 +37,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
                     </li>
                   </ul>            
             </div>
@@ -141,7 +143,7 @@
                                         </p>
                                     </div>
                                     <div class="card-link">
-                                        <a href="#">
+                                        <a href="https://github.com/Rishabh10s/nvm-bash" target="_blank">
                                             Know More
                                             &nbsp;<i class="fa-solid fa-arrow-right"></i>
                                         </a>
@@ -157,7 +159,7 @@
                                         </p>
                                     </div>
                                     <div class="card-link">
-                                        <a href="#">
+                                        <a href="https://github.com/Rishabh10s/Screenshot-reader" target="_blank">
                                             Know More
                                             &nbsp;<i class="fa-solid fa-arrow-right"></i>
                                         </a>
@@ -190,7 +192,7 @@
                                         </p>
                                     </div>
                                     <div class="card-link">
-                                        <a href="#">
+                                        <a href="https://mhp-thermals.surge.sh/" target="_blank">
                                             Know More
                                             &nbsp;<i class="fa-solid fa-arrow-right"></i>
                                         </a>
@@ -207,7 +209,7 @@
                                         </p>
                                     </div>
                                     <div class="card-link">
-                                        <a href="#">
+                                        <a href="https://github.com/Rishabh10s/idle-check" target="_blank">
                                             Know More
                                             &nbsp;<i class="fa-solid fa-arrow-right"></i>
                                         </a>
@@ -223,7 +225,7 @@
                                         </p>
                                     </div>
                                     <div class="card-link">
-                                        <a href="#">
+                                        <a href="https://github.com/Rishabh10s/vpn-connector" target="_blank">
                                             Know More
                                             &nbsp;<i class="fa-solid fa-arrow-right"></i>
                                         </a>
@@ -261,9 +263,9 @@
                 <div class="footer">
                     <p class="copyright">Copyright © 2022 Rishabh Sharma</p>
                     <span class="social">
-                        <i class="fa-brands fa-github fa-xl"></i>&nbsp;
-                        <i class="fa-brands fa-linkedin fa-xl"></i>&nbsp;
-                        <i class="fa-brands fa-hackerrank fa-xl"></i>
+                        <a href="https://github.com/Rishabh10s" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>&nbsp;
+                        <a href="https://www.linkedin.com/in/rishabh-sharma10" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>&nbsp;
+                        <a href="https://www.hackerrank.com/rishabh10s" target="_blank"><i class="fa-brands fa-hackerrank fa-xl"></i></a>
                     </span>
                 </div>
             </footer>
